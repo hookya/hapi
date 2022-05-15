@@ -34,6 +34,7 @@ type Context struct {
 	Request  *http.Request
 	fullPath string
 	data     map[string]interface{}
+	err      error
 }
 
 /************************************/

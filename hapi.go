@@ -33,9 +33,9 @@ type Engine struct {
 var _ Group = &Engine{}
 
 var (
-	default404Body = []byte("404 page not found")
-	default405Body = []byte("405 method not allowed")
-	default500Body = []byte("500 server err")
+	default404Body = []byte(`{"code":"404","message":"Not Found."}`)
+	default405Body = []byte(`{"code":"405","message":"method not allowed."}`)
+	default500Body = []byte(`{"code":"500","message":"server err."}`)
 )
 
 func New() *Engine {
