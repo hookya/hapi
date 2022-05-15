@@ -1,4 +1,4 @@
-module github.com/hooky/hapi
+module github.com/hookya/hapi
 
 go 1.18
 

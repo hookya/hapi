@@ -5,7 +5,7 @@
 package hapi
 
 import (
-	"github.com/hooky/hapi/internal/bytesconv"
+	"github.com/hookya/hapi/internal/bytesconv"
 )
 
 type methodTree struct {
